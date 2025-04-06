@@ -58,7 +58,7 @@ const validateReview = (req, res, next) => {
     next();
   }
 };
-
+//new comment added
 app.get("/", async (req, res) => {
   try {
     console.log(req.method);
